@@ -19,7 +19,7 @@ class PokerController{
 
             $prenom = $request -> query -> get('prenom');
             $nom = $request -> query -> get('nom');
-            $message = "Bienvenu $prenom $nom, tou peux faire cé qué tou veux acqui !";
+            $message = "<p>Bienvenu $prenom $nom, tou peux faire cé qué tou veux acqui !</p>";
         }
         echo $message;
         die;
