@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class PokerController{
@@ -19,9 +20,9 @@ class PokerController{
 
             $prenom = $request -> query -> get('prenom');
             $nom = $request -> query -> get('nom');
-            $message = "<p>Bienvenu $prenom $nom, tou peux faire cé qué tou veux acqui !</p>";
+            $message = new Response( '<p> Bonjour ' . $prenom . ' ' . $nom . ' </p> ');
         }
-        echo $message;
+        return $message;
         die;
     }
 }
