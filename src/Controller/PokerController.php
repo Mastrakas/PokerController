@@ -11,12 +11,15 @@ class PokerController{
      */
 
     public function plus18 (Request $request){
-        $age =$request->query->get('age');
+        $age = $request -> query -> get('age');
 
         if ($age<18){
             $message = "AZY bouge de là TCHIIIIIIP";
         } else {
-            $message = "Bienvenu hermano, tou peux faire cé qué tou veux acqui !";
+
+            $prenom = $request -> query -> get('prenom');
+            $nom = $request -> query -> get('nom');
+            $message = "Bienvenu $prenom $nom, tou peux faire cé qué tou veux acqui !";
         }
         echo $message;
         die;
