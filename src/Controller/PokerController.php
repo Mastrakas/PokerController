@@ -15,7 +15,7 @@ class PokerController{
         $age = $request -> query -> get('age');
 
         if ($age<18){
-            $message = "AZY bouge de là TCHIIIIIIP";
+            $message = new Response('<h1>AZY bouge de là TCHIIIIIIP</h1>');
         } else {
 
             $prenom = $request -> query -> get('prenom');
