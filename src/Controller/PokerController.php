@@ -28,7 +28,7 @@ class PokerController{
 
     public function articleShow(Request $request) {
 
-        $idArticle = $request->query->get('id');
+        $idArticle = $request -> query -> get('id');
         $articles = [
             1 => 'Article 1',
             2 => "Article 2",
