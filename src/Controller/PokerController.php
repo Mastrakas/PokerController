@@ -2,11 +2,12 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class PokerController{
+class PokerController extends AbstractController {
     /**
      * @Route("/plus18", name="plus18")
      */
@@ -23,12 +24,14 @@ class PokerController{
             $message = new Response( '<p> Bonjour ' . $prenom . ' ' . $nom . ' </p> ');
         }
         return $message;
-        die;
     }
 
-    public function articleShow(Request $request) {
+    /**
+     * @Route("/article/{id}", name="article")
+     */
 
-        $idArticle = $request -> query -> get('id');
+    public function articlasse($id) {
+
         $articles = [
             1 => 'Article 1',
             2 => "Article 2",
@@ -37,8 +40,30 @@ class PokerController{
             5 => "Article 5",
             6 => "Article 6",
         ];
-        $response = new Response('<h3>'.$articles[$idArticle].'</h3>');
+        $response = new Response($articles[$id]);
         return $response;
     }
+
+    /**
+     * @Route ("/", name="home")
+     */
+    public function home (){
+        return new Response("page d'accueil");
+    }
+
+    /**
+     * @Route ("/formProcess", name="formProcess")
+     */
+
+    public function ProcessForm (){
+        $isFormSubmitted = false;
+
+        if (!$isFormSubmitted) {
+            $message = new Response ("Merci de bien vouloir vous magner 
+            le cul de REMPLIR CE FORMULAIRE A LA CON !");
+        } else {
+            $message = $this ->redirectToRoute("home");
+        }
+        return $message;
+    }
 }
-?>
