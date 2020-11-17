@@ -25,5 +25,20 @@ class PokerController{
         return $message;
         die;
     }
+
+    public function articleShow(Request $request) {
+
+        $idArticle = $request->query->get('id');
+        $articles = [
+            1 => 'Article 1',
+            2 => "Article 2",
+            3 => "Article 3",
+            4 => 'Article 4',
+            5 => "Article 5",
+            6 => "Article 6",
+        ];
+        $response = new Response('<h3>'.$articles[$idArticle].'</h3>');
+        return $response;
+    }
 }
 ?>
