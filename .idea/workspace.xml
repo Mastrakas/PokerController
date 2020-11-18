@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="ProcessForm">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
+    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="envoie var twig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PokerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PokerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +166,7 @@
       <workItem from="1605607641642" duration="36000" />
       <workItem from="1605611488698" duration="1541000" />
       <workItem from="1605617537255" duration="3844000" />
-      <workItem from="1605689274631" duration="1264000" />
+      <workItem from="1605689274631" duration="1615000" />
     </task>
     <task id="LOCAL-00001" summary="y">
       <created>1605542037782</created>
@@ -222,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605622672462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="envoie var twig">
+      <created>1605691961406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605691961406</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,16 +246,17 @@
     <MESSAGE value="y" />
     <MESSAGE value="PokerController" />
     <MESSAGE value="ProcessForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProcessForm" />
+    <MESSAGE value="envoie var twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="envoie var twig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="543" y="380" key="NewPhpFileDialog" timestamp="1605691105278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="543" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605691105278" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605622679258">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605691969516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605622679258" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605691969516" />
   </component>
 </project>

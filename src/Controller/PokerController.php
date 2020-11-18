@@ -27,26 +27,6 @@ class PokerController extends AbstractController {
     }
 
     /**
-     * @Route("/article/{id}", name="article")
-     */
-
-    public function articlasse($id) {
-
-        $articles = [
-            1 => 'Article 1',
-            2 => "Article 2",
-            3 => "Article 3",
-            4 => 'Article 4',
-            5 => "Article 5",
-            6 => "Article 6",
-        ];
-
-        return $this->render('article.html.twig');
-        //$response = new Response($articles[$id]);
-        //return $response;
-    }
-
-    /**
      * @Route ("/", name="home")
      */
     public function home (){
