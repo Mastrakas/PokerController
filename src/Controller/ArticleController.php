@@ -8,6 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ArticleController extends AbstractController
 {
     /**
+     *
      * @Route("/article/{id}", name="article_show")
      */
 
@@ -24,7 +25,7 @@ class ArticleController extends AbstractController
         ];
 
         $article = $articles[$id];
-
+        //retourne le résultat de la méthode en direction de article.html.twig
         return $this -> render ('article.html.twig',
             [
                 'article' => $article
