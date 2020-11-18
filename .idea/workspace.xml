@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="">
+    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="ProcessForm">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PokerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PokerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +149,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -159,8 +165,64 @@
       <option name="presentableId" value="Default" />
       <updated>1605532152715</updated>
       <workItem from="1605532153981" duration="2489000" />
-      <workItem from="1605541490293" duration="332000" />
+      <workItem from="1605541490293" duration="2208000" />
+      <workItem from="1605561403989" duration="10000" />
+      <workItem from="1605604800883" duration="1265000" />
+      <workItem from="1605607641642" duration="36000" />
+      <workItem from="1605611488698" duration="1541000" />
+      <workItem from="1605617537255" duration="3844000" />
+      <workItem from="1605689274631" duration="1264000" />
     </task>
+    <task id="LOCAL-00001" summary="y">
+      <created>1605542037782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605542037782</updated>
+    </task>
+    <task id="LOCAL-00002" summary="y">
+      <created>1605542289850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605542289850</updated>
+    </task>
+    <task id="LOCAL-00003" summary="PokerController">
+      <created>1605542872768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605542872768</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PokerController">
+      <created>1605543530537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605543530537</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PokerController">
+      <created>1605605834284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605605834284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PokerController">
+      <created>1605605929770</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605605929770</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ProcessForm">
+      <created>1605622672462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605622672462</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,11 +238,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="y" />
+    <MESSAGE value="PokerController" />
+    <MESSAGE value="ProcessForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProcessForm" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="543" y="380" key="NewPhpFileDialog" timestamp="1605541513622">
+    <state x="543" y="380" key="NewPhpFileDialog" timestamp="1605691105278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="543" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605541513622" />
+    <state x="543" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605691105278" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605622679258">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605622679258" />
   </component>
 </project>

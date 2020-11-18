@@ -40,8 +40,10 @@ class PokerController extends AbstractController {
             5 => "Article 5",
             6 => "Article 6",
         ];
-        $response = new Response($articles[$id]);
-        return $response;
+
+        return $this->render('article.html.twig');
+        //$response = new Response($articles[$id]);
+        //return $response;
     }
 
     /**
