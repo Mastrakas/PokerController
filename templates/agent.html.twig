@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang=fr>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,12 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<ul>
-    {% for agent in agents %}
-        {% if agent.published %}
-            <a href="{{ path('agent_show', {'id' : agent.id}) }}">{{ agent.lastName }}, {{ agent.firstName }}, {{ agent.age }} ans</a>
-        {% endif %}
-    {% endfor %}
-</ul>
+    <h3>{{ agent.firstName }} {{ agent.lastName }}</h3>
+    <p>Cet agent a : {{ agent.age }}</p>
 </body>
 </html>
