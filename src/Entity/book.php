@@ -43,7 +43,7 @@ class book {
     private $sale;
 
     /**
-     * @ORM\Column(type="varchar", length="255")
+     * @ORM\Column(type="varchar")
      */
     private $resume;
 }
