@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="lien path twig">
-      <change afterPath="$PROJECT_DIR$/src/Entity/book.php" afterDir="false" />
+    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="create table book">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/agents.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agents.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +149,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -179,7 +183,7 @@
       <workItem from="1605800010466" duration="1533000" />
       <workItem from="1605862344928" duration="1506000" />
       <workItem from="1606122789405" duration="1521000" />
-      <workItem from="1606136881577" duration="308000" />
+      <workItem from="1606136881577" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="y">
       <created>1605542037782</created>
@@ -265,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605780044536</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create table book">
+      <created>1606137365704</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606137365704</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +303,8 @@
     <MESSAGE value="list twig" />
     <MESSAGE value="affichage agent multi-tableau" />
     <MESSAGE value="lien path twig" />
-    <option name="LAST_COMMIT_MESSAGE" value="lien path twig" />
+    <MESSAGE value="create table book" />
+    <option name="LAST_COMMIT_MESSAGE" value="create table book" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606123941674">
@@ -307,9 +319,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605694662087" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605780049744">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606137370168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605780049744" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606137370168" />
   </component>
 </project>
