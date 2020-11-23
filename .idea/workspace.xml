@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="affichage agent multi-tableau">
-      <change afterPath="$PROJECT_DIR$/templates/agent.html.twig" afterDir="false" />
+    <list default="true" id="7fce5918-5c72-43f7-936c-ea1b392e086c" name="Default Changelist" comment="lien path twig">
+      <change afterPath="$PROJECT_DIR$/src/Entity/book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConditionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConditionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/agents.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agents.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +154,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -171,7 +175,11 @@
       <workItem from="1605611488698" duration="1541000" />
       <workItem from="1605617537255" duration="3844000" />
       <workItem from="1605689274631" duration="9314000" />
-      <workItem from="1605776094461" duration="1941000" />
+      <workItem from="1605776094461" duration="3436000" />
+      <workItem from="1605800010466" duration="1533000" />
+      <workItem from="1605862344928" duration="1506000" />
+      <workItem from="1606122789405" duration="1521000" />
+      <workItem from="1606136881577" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="y">
       <created>1605542037782</created>
@@ -250,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605713918590</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lien path twig">
+      <created>1605780044536</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605780044536</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,20 +291,25 @@
     <MESSAGE value="b" />
     <MESSAGE value="list twig" />
     <MESSAGE value="affichage agent multi-tableau" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage agent multi-tableau" />
+    <MESSAGE value="lien path twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="lien path twig" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="543" y="380" key="NewPhpFileDialog" timestamp="1605708821788">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606123941674">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1606123941674" />
+    <state x="543" y="380" key="NewPhpFileDialog" timestamp="1606136910092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="543" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605708821788" />
+    <state x="543" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606136910092" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1605694662087">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605694662087" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605713923344">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605780049744">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605713923344" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605780049744" />
   </component>
 </project>
